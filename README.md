@@ -35,7 +35,7 @@ def main():
     
     list_all_uniquesums = []
     for _ in range(t):
-        n = int(input(f'Provide the number of coins {_+1}: '))
+        n = int(input(f'Provide the number of coins for case {_+1}: '))
         coins = list(map(int, input('Enter the value of each coin separated by a comma').split(',')))
         
         sum_unique = count_unique_sums(coins)
