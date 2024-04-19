@@ -4,7 +4,7 @@
 ![Problem Image](https://i.ibb.co/r5V9d7Z/Ejercicio-programacion-dinamica.jpg)
 
 ## Solution
-To solve this challenge have developed the following code:
+To solve this challenge I have developed the following code:
 
 ### First function
 ~~~python
