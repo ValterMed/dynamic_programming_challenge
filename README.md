@@ -36,12 +36,14 @@ def main():
     list_all_uniquesums = []
     for _ in range(t):
         n = int(input(f'Provide the number of coins for case {_+1}: '))
-        coins = list(map(int, input('Enter the value of each coin separated by a comma').split(',')))
+        coins = list(map(int, input('Enter the value of each coin separated by a comma: ').split(',')))
         
         sum_unique = count_unique_sums(coins)
+        print(f'The number of unique sums for case {_+1} is: ', sum_unique)
+        
         list_all_uniquesums.append(sum_unique)
 
-    print(list_all_uniquesums)
+    print('The results were: ',list_all_uniquesums)
 ~~~
 - This is the function main which controls the flow of the program.
 -  You need to provide the amount of cases you want to solve.
