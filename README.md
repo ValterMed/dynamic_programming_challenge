@@ -4,8 +4,9 @@
 ![Problem Image](https://i.ibb.co/r5V9d7Z/Ejercicio-programacion-dinamica.jpg)
 
 ## Solution
-To solve this challenge have developed the following fuction:
+To solve this challenge have developed the following code:
 
+### First function
 ~~~python
 def count_unique_sums(coins):
     unique_sums = set()
@@ -27,7 +28,8 @@ def count_unique_sums(coins):
 6. Then using a for loop to iterate over each value in the temporary list and adding the current coin to all of them.
 7. In the end each sum is stored in the set and returns the length of the set.
 
-~~~
+### Second function
+~~~python
 def main():
     t = int(input('Enter the number of cases: '))
     
